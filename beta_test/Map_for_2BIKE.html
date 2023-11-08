@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_203bace9bebd47e31bf93a7b14ef502f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_203bace9bebd47e31bf93a7b14ef502f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_203bace9bebd47e31bf93a7b14ef502f = L.map(
+                "map_203bace9bebd47e31bf93a7b14ef502f",
+                {
+                    center: [55.8734, -4.2889],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f1d24fbc20f0d927e6bab8b3e1516697 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_203bace9bebd47e31bf93a7b14ef502f);
+        
+    
+            var marker_3f66e840d2ac2aa2e68c12de37f315a1 = L.marker(
+                [55.86455171346777, -4.28872251734971],
+                {}
+            ).addTo(map_203bace9bebd47e31bf93a7b14ef502f);
+        
+    
+            var icon_e427c749feda441146dccdc7b2394efc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_3f66e840d2ac2aa2e68c12de37f315a1.setIcon(icon_e427c749feda441146dccdc7b2394efc);
+        
+    
+        var popup_09e09e0abd67defb95d538d4c9444df7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_296073c996632df7b23b3af8d97aeac1 = $(`<div id="html_296073c996632df7b23b3af8d97aeac1" style="width: 100.0%; height: 100.0%;">Kelvinhaugh St, Bike available: 10</div>`)[0];
+                popup_09e09e0abd67defb95d538d4c9444df7.setContent(html_296073c996632df7b23b3af8d97aeac1);
+            
+        
+
+        marker_3f66e840d2ac2aa2e68c12de37f315a1.bindPopup(popup_09e09e0abd67defb95d538d4c9444df7)
+        ;
+
+        
+    
+    
+            var marker_53f0e4ed8762fc2a96040677e796b565 = L.marker(
+                [55.87180409870281, -4.288428799073684],
+                {}
+            ).addTo(map_203bace9bebd47e31bf93a7b14ef502f);
+        
+    
+            var icon_51ab3e3f561359c73cafdd154f0528aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_53f0e4ed8762fc2a96040677e796b565.setIcon(icon_51ab3e3f561359c73cafdd154f0528aa);
+        
+    
+        var popup_d57a20ae51db0167b4924694f9c2c0b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74fc7bee6fe4067083ac352fb0d200df = $(`<div id="html_74fc7bee6fe4067083ac352fb0d200df" style="width: 100.0%; height: 100.0%;">Main Building, Bike available: 30</div>`)[0];
+                popup_d57a20ae51db0167b4924694f9c2c0b7.setContent(html_74fc7bee6fe4067083ac352fb0d200df);
+            
+        
+
+        marker_53f0e4ed8762fc2a96040677e796b565.bindPopup(popup_d57a20ae51db0167b4924694f9c2c0b7)
+        ;
+
+        
+    
+    
+            var marker_c2564f1f0f5b19d189b0733b00c76979 = L.marker(
+                [55.859078341125816, -4.258276776007241],
+                {}
+            ).addTo(map_203bace9bebd47e31bf93a7b14ef502f);
+        
+    
+            var icon_ea46101d3b9f05d88824546a073e0ec7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_c2564f1f0f5b19d189b0733b00c76979.setIcon(icon_ea46101d3b9f05d88824546a073e0ec7);
+        
+    
+        var popup_d8318c20430f5fc225e1c2236fd9097e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5109e18093df66083fc2d80249f7729 = $(`<div id="html_f5109e18093df66083fc2d80249f7729" style="width: 100.0%; height: 100.0%;">Glasgow central station, Bike available: 50</div>`)[0];
+                popup_d8318c20430f5fc225e1c2236fd9097e.setContent(html_f5109e18093df66083fc2d80249f7729);
+            
+        
+
+        marker_c2564f1f0f5b19d189b0733b00c76979.bindPopup(popup_d8318c20430f5fc225e1c2236fd9097e)
+        ;
+
+        
+    
+    
+            var marker_1ffd7c75e2f2d5240027133cf4d678dc = L.marker(
+                [55.87175818135723, -4.2959210592753925],
+                {}
+            ).addTo(map_203bace9bebd47e31bf93a7b14ef502f);
+        
+    
+            var icon_8590eddddb47e7bcd57abbf37267ef96 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1ffd7c75e2f2d5240027133cf4d678dc.setIcon(icon_8590eddddb47e7bcd57abbf37267ef96);
+        
+    
+        var popup_7a4a75e14a12d4a6b06b079455335f09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_999cfa7bc0aa2299107b95ac5f436098 = $(`<div id="html_999cfa7bc0aa2299107b95ac5f436098" style="width: 100.0%; height: 100.0%;">ARC, Bike available: 20</div>`)[0];
+                popup_7a4a75e14a12d4a6b06b079455335f09.setContent(html_999cfa7bc0aa2299107b95ac5f436098);
+            
+        
+
+        marker_1ffd7c75e2f2d5240027133cf4d678dc.bindPopup(popup_7a4a75e14a12d4a6b06b079455335f09)
+        ;
+
+        
+    
+    
+            var marker_1e2862348523394bcafa1274ab6bd711 = L.marker(
+                [55.875213417332624, -4.293373272539461],
+                {}
+            ).addTo(map_203bace9bebd47e31bf93a7b14ef502f);
+        
+    
+            var icon_30dc35daa104cee1d62e691f16c42812 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1e2862348523394bcafa1274ab6bd711.setIcon(icon_30dc35daa104cee1d62e691f16c42812);
+        
+    
+        var popup_2e61087e77a94a5034be7e132359e663 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c88f53a32a3201cde43d58a769467eac = $(`<div id="html_c88f53a32a3201cde43d58a769467eac" style="width: 100.0%; height: 100.0%;">Hillhead Station, Bike available: 33</div>`)[0];
+                popup_2e61087e77a94a5034be7e132359e663.setContent(html_c88f53a32a3201cde43d58a769467eac);
+            
+        
+
+        marker_1e2862348523394bcafa1274ab6bd711.bindPopup(popup_2e61087e77a94a5034be7e132359e663)
+        ;
+
+        
+    
+    
+            var marker_5ca3f8f8dbc83130779a524093bfe01f = L.marker(
+                [55.87336247254857, -4.292494257626915],
+                {}
+            ).addTo(map_203bace9bebd47e31bf93a7b14ef502f);
+        
+    
+            var icon_1b15582a56691f93382ee23e70239798 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_5ca3f8f8dbc83130779a524093bfe01f.setIcon(icon_1b15582a56691f93382ee23e70239798);
+        
+    
+        var popup_b51c59178dc41bcf49b8789caa41858d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a727baf79aac1e6cf8ebceaaae04391 = $(`<div id="html_4a727baf79aac1e6cf8ebceaaae04391" style="width: 100.0%; height: 100.0%;">James McCune Smith learningHub, Bike available: 21</div>`)[0];
+                popup_b51c59178dc41bcf49b8789caa41858d.setContent(html_4a727baf79aac1e6cf8ebceaaae04391);
+            
+        
+
+        marker_5ca3f8f8dbc83130779a524093bfe01f.bindPopup(popup_b51c59178dc41bcf49b8789caa41858d)
+        ;
+
+        
+    
+    
+            var marker_51b519f5afc8f50058113c055a8fbce0 = L.marker(
+                [55.86864512198083, -4.304794878767273],
+                {}
+            ).addTo(map_203bace9bebd47e31bf93a7b14ef502f);
+        
+    
+            var icon_4b8b5a8c31ff4d0adf8b642453760cb8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_51b519f5afc8f50058113c055a8fbce0.setIcon(icon_4b8b5a8c31ff4d0adf8b642453760cb8);
+        
+    
+        var popup_f8a9b5fd3ad25efa794cb3f73a069a6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11058de11a5c11ff3920174f7c028737 = $(`<div id="html_11058de11a5c11ff3920174f7c028737" style="width: 100.0%; height: 100.0%;">West View, Bike available: 35</div>`)[0];
+                popup_f8a9b5fd3ad25efa794cb3f73a069a6e.setContent(html_11058de11a5c11ff3920174f7c028737);
+            
+        
+
+        marker_51b519f5afc8f50058113c055a8fbce0.bindPopup(popup_f8a9b5fd3ad25efa794cb3f73a069a6e)
+        ;
+
+        
+    
+    
+            var marker_29efdb6b3a59a7bc7a267dcafb825589 = L.marker(
+                [55.86988270926777, -4.3088386825339615],
+                {}
+            ).addTo(map_203bace9bebd47e31bf93a7b14ef502f);
+        
+    
+            var icon_e73ae627c5ef6e473074db8e38a19793 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_29efdb6b3a59a7bc7a267dcafb825589.setIcon(icon_e73ae627c5ef6e473074db8e38a19793);
+        
+    
+        var popup_cd83c7b08ffc5ac7010dc2789009bfd0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6df809d872c2a9a65e3ebcff2b078ca = $(`<div id="html_b6df809d872c2a9a65e3ebcff2b078ca" style="width: 100.0%; height: 100.0%;">Partick, Bike available: 15</div>`)[0];
+                popup_cd83c7b08ffc5ac7010dc2789009bfd0.setContent(html_b6df809d872c2a9a65e3ebcff2b078ca);
+            
+        
+
+        marker_29efdb6b3a59a7bc7a267dcafb825589.bindPopup(popup_cd83c7b08ffc5ac7010dc2789009bfd0)
+        ;
+
+        
+    
+    
+            var marker_a0b1a8a31035a0b3777b35cf016b0044 = L.marker(
+                [55.86940121008335, -4.2977604318827645],
+                {}
+            ).addTo(map_203bace9bebd47e31bf93a7b14ef502f);
+        
+    
+            var icon_1811dac1fd1970a5e1d65c819946d8a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_a0b1a8a31035a0b3777b35cf016b0044.setIcon(icon_1811dac1fd1970a5e1d65c819946d8a9);
+        
+    
+        var popup_17012097f73eef488ccc3080a37e565f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b37af9e83ded563a9a68948512e1381a = $(`<div id="html_b37af9e83ded563a9a68948512e1381a" style="width: 100.0%; height: 100.0%;">Dunaskin Mill, Bike available: 22</div>`)[0];
+                popup_17012097f73eef488ccc3080a37e565f.setContent(html_b37af9e83ded563a9a68948512e1381a);
+            
+        
+
+        marker_a0b1a8a31035a0b3777b35cf016b0044.bindPopup(popup_17012097f73eef488ccc3080a37e565f)
+        ;
+
+        
+    
+    
+            var marker_165128a5ec271e11244508b7f80fff78 = L.marker(
+                [55.87107534990584, -4.299838643941384],
+                {}
+            ).addTo(map_203bace9bebd47e31bf93a7b14ef502f);
+        
+    
+            var icon_f5571b12be9d5d219d3a9dcf40e818b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_165128a5ec271e11244508b7f80fff78.setIcon(icon_f5571b12be9d5d219d3a9dcf40e818b6);
+        
+    
+        var popup_fb89689aa9e9651816c48c56cc625262 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b3c79910f796cb745a2995584fa4425 = $(`<div id="html_9b3c79910f796cb745a2995584fa4425" style="width: 100.0%; height: 100.0%;">Kelvinhall, Bike available: 10</div>`)[0];
+                popup_fb89689aa9e9651816c48c56cc625262.setContent(html_9b3c79910f796cb745a2995584fa4425);
+            
+        
+
+        marker_165128a5ec271e11244508b7f80fff78.bindPopup(popup_fb89689aa9e9651816c48c56cc625262)
+        ;
+
+        
+    
+    
+            var marker_2ee3f0c7a4a3fa091ddae799a956080b = L.marker(
+                [55.87480385766344, -4.279536962315601],
+                {}
+            ).addTo(map_203bace9bebd47e31bf93a7b14ef502f);
+        
+    
+            var icon_032aa5119ad90521f71717f2cc01d861 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_2ee3f0c7a4a3fa091ddae799a956080b.setIcon(icon_032aa5119ad90521f71717f2cc01d861);
+        
+    
+        var popup_3e215b6df3928be70f1af492ed2e822f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6a88e5c97fbab2c83eb5a6427bc15bf = $(`<div id="html_d6a88e5c97fbab2c83eb5a6427bc15bf" style="width: 100.0%; height: 100.0%;">Kelvinbridge, Bike available: 15</div>`)[0];
+                popup_3e215b6df3928be70f1af492ed2e822f.setContent(html_d6a88e5c97fbab2c83eb5a6427bc15bf);
+            
+        
+
+        marker_2ee3f0c7a4a3fa091ddae799a956080b.bindPopup(popup_3e215b6df3928be70f1af492ed2e822f)
+        ;
+
+        
+    
+    
+            var marker_d1afb7f5db992b231186d9e64e20d80d = L.marker(
+                [55.87177020851412, -4.2688939569467195],
+                {}
+            ).addTo(map_203bace9bebd47e31bf93a7b14ef502f);
+        
+    
+            var icon_02f0c0ae4213d418743778852df09591 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_d1afb7f5db992b231186d9e64e20d80d.setIcon(icon_02f0c0ae4213d418743778852df09591);
+        
+    
+        var popup_d54424eddbcac9bca0bd9f16044ed2b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51668ae434484b632c75372a12898406 = $(`<div id="html_51668ae434484b632c75372a12898406" style="width: 100.0%; height: 100.0%;">St. George's Cross, Bike available: 20</div>`)[0];
+                popup_d54424eddbcac9bca0bd9f16044ed2b7.setContent(html_51668ae434484b632c75372a12898406);
+            
+        
+
+        marker_d1afb7f5db992b231186d9e64e20d80d.bindPopup(popup_d54424eddbcac9bca0bd9f16044ed2b7)
+        ;
+
+        
+    
+    
+            var marker_286888ac4c2267da39d883954005cf78 = L.marker(
+                [55.868543686616796, -4.259581327251547],
+                {}
+            ).addTo(map_203bace9bebd47e31bf93a7b14ef502f);
+        
+    
+            var icon_3b99c99b628d72515b2a3e0cfdca8aad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_286888ac4c2267da39d883954005cf78.setIcon(icon_3b99c99b628d72515b2a3e0cfdca8aad);
+        
+    
+        var popup_61bb56f3585661af6e2dccf7c281df2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccd5387254573d9c13a2f442e0f7df42 = $(`<div id="html_ccd5387254573d9c13a2f442e0f7df42" style="width: 100.0%; height: 100.0%;">Cowcaddens, Bike available: 12</div>`)[0];
+                popup_61bb56f3585661af6e2dccf7c281df2b.setContent(html_ccd5387254573d9c13a2f442e0f7df42);
+            
+        
+
+        marker_286888ac4c2267da39d883954005cf78.bindPopup(popup_61bb56f3585661af6e2dccf7c281df2b)
+        ;
+
+        
+    
+    
+            var marker_ecd6631d37a22ac8b4b1ed9222bdd869 = L.marker(
+                [55.85759992586805, -4.255192345837397],
+                {}
+            ).addTo(map_203bace9bebd47e31bf93a7b14ef502f);
+        
+    
+            var icon_432c038e8500e79e98ca4b9fd1e4bb30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ecd6631d37a22ac8b4b1ed9222bdd869.setIcon(icon_432c038e8500e79e98ca4b9fd1e4bb30);
+        
+    
+        var popup_687b0f683818ce775b9a36a74f321c9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b853df22ef48f490fa02234eed0a519a = $(`<div id="html_b853df22ef48f490fa02234eed0a519a" style="width: 100.0%; height: 100.0%;">St. Enoch, Bike available: 27</div>`)[0];
+                popup_687b0f683818ce775b9a36a74f321c9d.setContent(html_b853df22ef48f490fa02234eed0a519a);
+            
+        
+
+        marker_ecd6631d37a22ac8b4b1ed9222bdd869.bindPopup(popup_687b0f683818ce775b9a36a74f321c9d)
+        ;
+
+        
+    
+    
+            var marker_0381532ebf94aa1887aab9a585a7a3c3 = L.marker(
+                [55.86259540216528, -4.253294334439605],
+                {}
+            ).addTo(map_203bace9bebd47e31bf93a7b14ef502f);
+        
+    
+            var icon_eb93f5259973ae80cea08c75674fd551 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0381532ebf94aa1887aab9a585a7a3c3.setIcon(icon_eb93f5259973ae80cea08c75674fd551);
+        
+    
+        var popup_9ae2959fe154f8c1566283c20caeee28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91cd2dbe8c2b8517ffaf19eb18781642 = $(`<div id="html_91cd2dbe8c2b8517ffaf19eb18781642" style="width: 100.0%; height: 100.0%;">Buchanan Street, Bike available: 10</div>`)[0];
+                popup_9ae2959fe154f8c1566283c20caeee28.setContent(html_91cd2dbe8c2b8517ffaf19eb18781642);
+            
+        
+
+        marker_0381532ebf94aa1887aab9a585a7a3c3.bindPopup(popup_9ae2959fe154f8c1566283c20caeee28)
+        ;
+
+        
+    
+    
+            var marker_f6e4acea5bbc9c5bad662c4c0727dae6 = L.marker(
+                [55.865954781770284, -4.2514818064037465],
+                {}
+            ).addTo(map_203bace9bebd47e31bf93a7b14ef502f);
+        
+    
+            var icon_5f2041e373ecf1f89573d8d6d2d0e5bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f6e4acea5bbc9c5bad662c4c0727dae6.setIcon(icon_5f2041e373ecf1f89573d8d6d2d0e5bb);
+        
+    
+        var popup_f214d59d585df4c2b13397fd67e3e159 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43e7a3f3b337e8dd901877d1a8fe9593 = $(`<div id="html_43e7a3f3b337e8dd901877d1a8fe9593" style="width: 100.0%; height: 100.0%;">Buchanan Bus Station, Bike available: 32</div>`)[0];
+                popup_f214d59d585df4c2b13397fd67e3e159.setContent(html_43e7a3f3b337e8dd901877d1a8fe9593);
+            
+        
+
+        marker_f6e4acea5bbc9c5bad662c4c0727dae6.bindPopup(popup_f214d59d585df4c2b13397fd67e3e159)
+        ;
+
+        
+    
+    
+            var marker_ee20aaf9485f4ec2a239571b6a7c7e30 = L.marker(
+                [55.86245302556574, -4.242558245927205],
+                {}
+            ).addTo(map_203bace9bebd47e31bf93a7b14ef502f);
+        
+    
+            var icon_fe84641395ffa731050273ba6aeb729e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ee20aaf9485f4ec2a239571b6a7c7e30.setIcon(icon_fe84641395ffa731050273ba6aeb729e);
+        
+    
+        var popup_beda2439feedb6cb9a9842e33144c822 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6b5bcd51047526114582871209794aa = $(`<div id="html_f6b5bcd51047526114582871209794aa" style="width: 100.0%; height: 100.0%;">University of Strathclyde, Bike available: 25</div>`)[0];
+                popup_beda2439feedb6cb9a9842e33144c822.setContent(html_f6b5bcd51047526114582871209794aa);
+            
+        
+
+        marker_ee20aaf9485f4ec2a239571b6a7c7e30.bindPopup(popup_beda2439feedb6cb9a9842e33144c822)
+        ;
+
+        
+    
+    
+            var marker_a370bc893df33837a94715f2af732482 = L.marker(
+                [55.867078661892215, -4.249868115827654],
+                {}
+            ).addTo(map_203bace9bebd47e31bf93a7b14ef502f);
+        
+    
+            var icon_007de7a2c1e74934ee247f112aeddd40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_a370bc893df33837a94715f2af732482.setIcon(icon_007de7a2c1e74934ee247f112aeddd40);
+        
+    
+        var popup_c65f48e371485ea9e7e2e56e27fe5685 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2873f792e1709462f7274267c64a9b86 = $(`<div id="html_2873f792e1709462f7274267c64a9b86" style="width: 100.0%; height: 100.0%;">Glasgow Caledonian University, Bike available: 28</div>`)[0];
+                popup_c65f48e371485ea9e7e2e56e27fe5685.setContent(html_2873f792e1709462f7274267c64a9b86);
+            
+        
+
+        marker_a370bc893df33837a94715f2af732482.bindPopup(popup_c65f48e371485ea9e7e2e56e27fe5685)
+        ;
+
+        
+    
+    
+            var marker_db531c971e4cda2828678520099d078c = L.marker(
+                [55.87565841454545, -4.22796175233819],
+                {}
+            ).addTo(map_203bace9bebd47e31bf93a7b14ef502f);
+        
+    
+            var icon_b59f18ee82943808e9d8774235030d9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_db531c971e4cda2828678520099d078c.setIcon(icon_b59f18ee82943808e9d8774235030d9a);
+        
+    
+        var popup_e1f459b894d6a2e6ddae27fb34409987 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_290f697d1b339a0836e9cf2ea8781d54 = $(`<div id="html_290f697d1b339a0836e9cf2ea8781d54" style="width: 100.0%; height: 100.0%;">Costco Glasgow, Bike available: 25</div>`)[0];
+                popup_e1f459b894d6a2e6ddae27fb34409987.setContent(html_290f697d1b339a0836e9cf2ea8781d54);
+            
+        
+
+        marker_db531c971e4cda2828678520099d078c.bindPopup(popup_e1f459b894d6a2e6ddae27fb34409987)
+        ;
+
+        
+    
+    
+            var marker_14fe1ef760b26aa7b72bb0e1e28af3a9 = L.marker(
+                [55.88069533226686, -4.229041114760715],
+                {}
+            ).addTo(map_203bace9bebd47e31bf93a7b14ef502f);
+        
+    
+            var icon_c19d58ff5a24432c3199ecc5450e59b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_14fe1ef760b26aa7b72bb0e1e28af3a9.setIcon(icon_c19d58ff5a24432c3199ecc5450e59b8);
+        
+    
+        var popup_3fa5d965ce1c4f0245d06200600d34ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b8bdf4267df8bd4644d2579de6250ca = $(`<div id="html_0b8bdf4267df8bd4644d2579de6250ca" style="width: 100.0%; height: 100.0%;">Glasgow Kelvin College, Bike available: 30</div>`)[0];
+                popup_3fa5d965ce1c4f0245d06200600d34ea.setContent(html_0b8bdf4267df8bd4644d2579de6250ca);
+            
+        
+
+        marker_14fe1ef760b26aa7b72bb0e1e28af3a9.bindPopup(popup_3fa5d965ce1c4f0245d06200600d34ea)
+        ;
+
+        
+    
+</script>
+</html>
