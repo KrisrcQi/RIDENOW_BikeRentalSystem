@@ -40,12 +40,3 @@ To access features of RideNow as a user,You can login using the following creden
 Our registration function only opens up access to the Customer identity, you can register Customer to log in.  
 The tests of our project are mainly accummulated during 2023-10-25 to 2023-10-31, by selecting the date of this period will produce the rich data visualization in the manager section.
 
-## Authors
-If you have any questions or suggestions, please contact us：
-* Yu Zhang: 2861948Z@student.gla.ac.uk 
-* Xinyue Zhang: 2727874Z@student.gla.ac.uk
-* Zhirong Zuo: 2737427Z@student.gla.ac.uk
-
-## Demo Video
-You can find demo video at the following link:  
-https://drive.google.com/file/d/1-zQZQGXeuXWC2DvV0WBCyY6k0I66CZwI/view?usp=sharing
